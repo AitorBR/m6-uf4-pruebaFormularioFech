@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Create a Star Wars Character</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form name="people" id="characters">
+            <label>Name: </label><input type="text" name="name">
+            <br>
+            <label>Gender: </label>
+            <select name="gender">
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+                <option value="non-binary">Non-Binary</option>
+            </select>
+            <br>
+            <label>Skin Color: </label><input type="text" name="skin_color">
+            <br>
+            <label>Hair Color: </label><input type="text" name="hair_color">
+            <br>
+            <label>Height (meters): </label><input type="number" name="height">
+            <br>
+            <label>Eye Color: </label><input type="text" name="eye_color">
+            <br>
+            <label>Mass: </label><input type="text" name="mass">
+            <br>
+            <label>Homeworld: </label><input type="range" name="homeworld" min="1" max="60">
+            <br>
+            <label>Birth Year: </label><input type="text" name="birth_year">
+            <br>
+            <button>Submit</button>
+        </form>
+        <script src="js/createCharacter.js"></script>
+    </body>
+</html>
